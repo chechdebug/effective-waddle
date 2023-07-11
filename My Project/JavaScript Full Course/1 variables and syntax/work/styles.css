@@ -1,5 +1,5 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: Arial, Helvetica;
     margin: 20px;
     padding: 20px;
   }
@@ -8,8 +8,15 @@ body {
     background-color: #f2f2f2;
     padding: 20px;
     text-align: center;
+    background-color: #f7d9e3; /* Color de fondo del encabezado en rosa pastel */
+    border-radius: 10px 10px 10px 10px;
   }
   
+  header:hover{
+    margin-left: 5px;
+    transition: margin-left 0.2s ease-in-out;
+  }
+
   main {
     margin: 20px;
   }
@@ -28,5 +35,29 @@ body {
   
   li {
     margin-bottom: 5px;
+  }
+  
+  /* Botones redondeados */
+  button {
+    background-color: #f7d9e3; /* Color de fondo del botón en rosa pastel */
+    color: #333;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+  }
+  
+  /* Efecto al pasar por la lista */
+  li:hover {
+    margin-left: 5px;
+    transition: margin-left 0.2s ease-in-out;
+  }
+  
+  p { 
+    border-radius: 6px; 
+    background-color: #f7d9e3;
+    color: #333;
+
+
   }
   

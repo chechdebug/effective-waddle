@@ -1,0 +1,56 @@
+/* Colores */
+body {
+  color: white;
+  margin: 20px;
+  padding: 20px;
+  
+}
+
+/* Tipografía */
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: white;
+}
+
+/* Fondos */
+body {
+  background-color: black;
+}
+
+/* Detalles mínimos en rosa pastel */
+h2 {
+  color: #bbffce;
+      padding-left: 20px;
+      margin-bottom: 5px;
+      border-radius: 5px;
+      padding: 5px;
+      text-align: left;
+}
+
+/* Footer de alto contraste */
+footer {
+  background-color: rgb(96, 145, 116);
+  color: rgb(255, 255, 255);
+  border-radius: 5px;
+  padding: 5px;
+  text-align: center;
+}
+
+header {
+  padding: 20px;
+  text-align: center;
+  color: #ffbbca;
+  
+}
+
+ol, li, li {
+  text-align: left;
+}
+
+p {
+  padding-left: 20px;
+  margin-bottom: 5px;
+  border-radius: 5px;
+  padding: 5px;
+  text-align: left;
+}
